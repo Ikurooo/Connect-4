@@ -5,9 +5,8 @@
 import codedraw.*;
 
 import java.awt.*;
-import java.util.Arrays;
 
-public class Aufgabe1 {
+public class Connect4Old {
 
     private static int[][] genGameBoard(int row, int col) {
         return new int[row][col];
